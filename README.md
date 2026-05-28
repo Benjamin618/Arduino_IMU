@@ -56,7 +56,8 @@ Remplace `COM5` par ton port reel.
 
 - `pitch`/`roll` sont stabilises avec accelerometre + gyroscope.
 - `yaw` est une integration gyro simple (derive dans le temps, normal pour ce POC).
-- Pour ameliorer: calibration au demarrage, Mahony/Madgwick, correction magnetometre.
+- Calibration automatique au demarrage (offset gyro + acc) : garder la carte immobile et a plat pendant ~3 secondes apres reset.
+- Prochaine amelioration utile: Mahony/Madgwick + correction magnetometre pour stabiliser le yaw.
 
 ## 4) Collaboration et versions
 
