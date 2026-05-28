@@ -57,3 +57,8 @@ Remplace `COM5` par ton port reel.
 - `pitch`/`roll` sont stabilises avec accelerometre + gyroscope.
 - `yaw` est une integration gyro simple (derive dans le temps, normal pour ce POC).
 - Pour ameliorer: calibration au demarrage, Mahony/Madgwick, correction magnetometre.
+
+## 4) Collaboration et versions
+
+- Guide contribution: `CONTRIBUTING.md`
+- Strategie de versioning/tags: `VERSIONING.md`
